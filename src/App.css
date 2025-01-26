@@ -17,3 +17,20 @@
     /* font-family: 'SF Pro Display',"sans-serif"; */
  
 }
+
+@media (min-width: 1024px) {
+    .navlist>li {
+        margin-left: 16px;
+        margin-right: 16px;
+        /* font-size: 18px; */
+    }
+}
+
+/* Medium screens (≥768px and <1024px) */
+@media (min-width: 768px) and (max-width: 1023px) {
+    .navlist>li {
+        margin-left: 10px;
+        margin-right: 10px;
+        /* font-size: 16px; */
+    }
+}
