@@ -32,7 +32,7 @@ const SlideBg = () => {
     <>
       <div>
         {BG.map((item, index) => (
-          <div key={index} className='relative cursor-pointer'>
+          <div key={index} className='relative cursor-pointer '>
             <img
               className='lg:h-[692px] md:h-[650px] h-[500px] object-cover py-1'
               src={item.src}
