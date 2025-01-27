@@ -13,7 +13,7 @@ function App() {
       <SlideBg />
       <Promo />
       <Carousel />
-      {/* <AutoCarousel/> */}
+      <AutoCarousel />
     </>
   );
 }
