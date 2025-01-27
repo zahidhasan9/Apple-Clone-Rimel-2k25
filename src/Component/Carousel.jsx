@@ -11,7 +11,7 @@ import Slider1m from "../assets/carousal/slider1m.jpg";
 import Slider2m from "../assets/carousal/slider2m.jpg";
 import Slider3m from "../assets/carousal/slider3m.jpg";
 import Slider4m from "../assets/carousal/slider4m.jpg";
-import { space } from "postcss/lib/list";
+
 
 const Slider = [
   {

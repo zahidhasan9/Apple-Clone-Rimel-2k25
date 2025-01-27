@@ -4,6 +4,7 @@ import './App.css';
 import SlideBg from './Component/SlideBg';
 import Promo from './Component/Promo';
 import Carousel from './Component/Carousel';
+import AutoCarousel from './Component/AutoCarousel';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <SlideBg />
       <Promo />
       <Carousel/>
+      <AutoCarousel/>
     </>
   );
 }
