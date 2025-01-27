@@ -1,3 +1,4 @@
+
 @import url('https://fonts.cdnfonts.com/css/sf-pro-display');
 /* font-family: 'SF Pro Display',"sans-serif"; */
 @import "tailwindcss";
@@ -10,13 +11,14 @@
 }
 
 /* navbar------------- */
-.navlist>li{
+.navlist >li{
     margin-left: 8px;
     margin-right: 8px;
     color: rgba(0, 0, 0,.8);
     /* font-family: 'SF Pro Display',"sans-serif"; */
  
 }
+
 
 @media (min-width: 1024px) {
     .navlist>li {

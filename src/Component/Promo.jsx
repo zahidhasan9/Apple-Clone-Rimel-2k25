@@ -46,12 +46,12 @@ const promo = [
 const Promo = () => {
   return (
     <>
-      <div>
-        <div className='font-Ifont'>
+     
+        <div className='flex flex-wrap justify-between'>
           {promo.map((item, index) => (
             <div
               key={index}
-              className='relative py-1 md:p-2  md:float-left md:w-1/2  w-full text-center overflow-hidden'
+              className='relative  font-Ifont py-1 md:p-2  md:float-left md:w-1/2  w-full text-center'
             >
               <img
                 className='hidden md:block float-left md:h-[490px] lg:h-[580px] object-cover'
@@ -92,7 +92,7 @@ const Promo = () => {
             </div>
           ))}
         </div>
-      </div>
+      
     </>
   );
 };
