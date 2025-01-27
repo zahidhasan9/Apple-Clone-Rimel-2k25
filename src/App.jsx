@@ -12,8 +12,8 @@ function App() {
       <Navbar />
       <SlideBg />
       <Promo />
-      <Carousel/>
-      <AutoCarousel/>
+      <Carousel />
+      {/* <AutoCarousel/> */}
     </>
   );
 }
