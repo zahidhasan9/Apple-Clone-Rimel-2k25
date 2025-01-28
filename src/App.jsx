@@ -5,6 +5,7 @@ import SlideBg from './Component/SlideBg';
 import Promo from './Component/Promo';
 import Carousel from './Component/Carousel';
 import AutoCarousel from './Component/AutoCarousel';
+import Footer from './Component/footer';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <Promo />
       <Carousel />
       <AutoCarousel />
+      <Footer />
     </>
   );
 }

@@ -69,7 +69,7 @@ const Carousel = () => {
                 alt={item.title}
               />
               <img
-                className='md:hidden h-[495px] w-full  object-cover object-left-bottom'
+                className='md:hidden h-[495px] w-full  object-cover object-left-top'
                 src={item.src2}
                 alt={item.title}
               />

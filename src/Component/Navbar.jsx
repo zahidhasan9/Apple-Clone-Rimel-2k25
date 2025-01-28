@@ -13,7 +13,7 @@ const Navbar = () => {
             </div>
           </div>
           <div className='hidden  lg:block sm:block'>
-            <ul className='cursor-pointer navlist flex text-[12px] font-[400] leading-1.5 tracking-widest lg:tracking-[.08em] lg:mx-10  '>
+            <ul className=' cursor-pointer navlist flex text-[12px] font-[400] leading-1.5 tracking-widest lg:tracking-[.08em] lg:mx-10  '>
               <li>Store</li>
               <li>Mac</li>
               <li>iPad</li>

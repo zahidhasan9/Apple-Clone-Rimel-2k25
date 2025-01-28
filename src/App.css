@@ -1,14 +1,17 @@
 
 @import url('https://fonts.cdnfonts.com/css/sf-pro-display');
 /* font-family: 'SF Pro Display',"sans-serif"; */
-@import "tailwindcss";
-
-@theme {
+@import url('https://db.onlinewebfonts.com/c/116f64f66c1cfef86f6eb0c37b61b43b family=SF+Pro+Text');
+/* font-family: "SF Pro Text"; */
+/* @theme {
     --font-Ifont: "SF Pro Display", "sans-serif";
     
 
    
-}
+} */
+ @tailwind base;
+ @tailwind components;
+ @tailwind utilities;
 body {
     margin: 0px;
     padding: 0px;
@@ -40,3 +43,39 @@ body {
         /* font-size: 16px; */
     }
 }
+
+/* ----------Footer Css------------ */
+div>h1{
+    font-size: 12px;
+    line-height: 1.3333733333;
+    letter-spacing: -0.01em;
+    /* color:#1d1d1f; */
+    color: #000000E0;
+    font-weight: 600;
+    margin-bottom: .8em;
+    margin-inline-end: 20px;
+    outline: none;
+    padding: 10px 0px 2px 0px;
+    
+}
+
+div>ul{
+  
+}
+div>ul>li {
+
+    font-size: 12px;
+        line-height: 1.3333733333;
+        font-weight: 400;
+        letter-spacing: -0.01em;
+        /* letter-spacing: 0.04em; */
+        color: rgb(0 0 0 / 72%);
+        /* color: rgb(68, 68, 69); */
+        margin-bottom: .8em;
+        margin-inline-end: 20px;
+        outline: none;
+}
+
+/* div>ul>li:hover{
+    text-decoration: underline;
+} */
