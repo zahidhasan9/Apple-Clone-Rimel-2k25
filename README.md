@@ -1,8 +1,64 @@
-# React + Vite
+# 🍎 Apple Clone - Rimel 2K25
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A clean, modern, and fully responsive **Apple homepage clone**, built using **React (Vite)** and **Tailwind CSS**.  
+This project replicates the official Apple landing page design with smooth scrolling, sharp layout, and responsive performance.
 
-Currently, two official plugins are available:
+🔗 **Live Site**: [https://app-rimel-2k25.netlify.app](https://app-rimel-2k25.netlify.app/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
+
+## 🖼️ Project Preview
+
+## 🚀 Tech Stack
+
+- ⚛️ React JS (Vite)
+- 🎨 Tailwind CSS
+- 💻 Responsive Design (Mobile-First)
+- 🌐 Netlify for Deployment
+
+---
+
+## 📁 Folder Structure (Simplified)
+
+apple-clone/
+├── public/
+│ └── ...assets
+├── src/
+│ ├── components/
+│ ├── pages/
+│ ├── App.jsx
+│ ├── main.jsx
+│ └── index.css
+├── tailwind.config.js
+├── vite.config.js
+└── package.json
+
+
+
+
+---
+
+## 🧪 Features
+
+- ✅ Pixel-perfect Apple landing page clone
+- ✅ Fully responsive (Mobile, Tablet, Desktop)
+- ✅ Built with utility-first Tailwind CSS
+- ✅ Clean code and folder structure
+- ❌ No backend integration (Frontend-only)
+
+---
+
+## 🔧 Getting Started Locally
+
+```bash
+# Clone the repository
+git clone https://github.com/zahidhasan9/Apple-Clone-Rimel-2k25.git
+
+# Navigate to the project folder
+cd Apple-Clone-Rimel-2k25
+
+# Install dependencies
+npm install
+
+# Run the development server
+npm run dev
